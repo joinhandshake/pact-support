@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "pact/support/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "pact-support"
+  spec.name          = "hs-pact-support"
   spec.version       = Pact::Support::VERSION
   spec.authors       = ["James Fraser", "Sergei Matheson", "Brent Snook", "Ronald Holshausen", "Beth Skurrie"]
   spec.email         = ["james.fraser@alumni.swinburne.edu", "sergei.matheson@gmail.com", "brent@fuglylogic.com", "uglyog@gmail.com", "bskurrie@dius.com.au"]
